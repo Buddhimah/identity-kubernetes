@@ -3,7 +3,7 @@ Simple two pod IS deployment using kubernetes
 
 # STEPS
 
-1) kubectl create ns wso2
+1) kubectl apply -f identity-namespace.yaml
 2) kubectl apply -f identity-svc.yaml
 3) kubectl apply -f identity-server-conf.yaml
 4) kubectl apply -f identity-wso2is-service.yaml
