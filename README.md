@@ -16,3 +16,7 @@ Minikube version : 1.7.3
 If you are using minikube To enable the NGINX Ingress controller, run the following command:
 
 minikube addons enable ingress
+
+Add wso2is <minkube ip> to /etc/hosts
+
+https://wso2is/carbon/admin/login.jsp
